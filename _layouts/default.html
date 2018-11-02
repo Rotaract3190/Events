@@ -6,7 +6,7 @@
     
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
     
-    <title>{{ page.title }} | {{site.name}}</title>
+    <title>{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.authors[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}</title>
     
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %} 
     
@@ -168,11 +168,11 @@
                                                 {% assign tags_list = site.categories %}  
                                                 {% if tags_list.first[0] == null %}
                                                 {% for tag in tags_list %} 
-                                                <a href="{{ site.baseurl }}/category/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
+                                                <a href="{{ site.baseurl }}/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
                                                 {% endfor %}
                                                 {% else %}
                                                 {% for tag in tags_list %} 
-                                                <a href="{{ site.baseurl }}/category/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
+                                                <a href="{{ site.baseurl }}/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
                                                 {% endfor %}
                                                 {% endif %}
                                                 {% assign tags_list = nil %}
