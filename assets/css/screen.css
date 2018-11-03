@@ -587,8 +587,8 @@ License: https://www.wowthemes.net/freebies-license/
          padding:0;
          height:350px;
          border-radius:0;
-         /* background-image: url(../images/jumbotron.jpg); */
-         background-image: url(https://rotaract3190.org/image/ecpic.jpg);
+         background-image: url(../images/ecpic.jpg);
+         /* background-image: url(https://rotaract3190.org/image/ecpic.jpg); */
          background-size:cover;
     }
      .jumbotron.fortags .col-md-4 {
