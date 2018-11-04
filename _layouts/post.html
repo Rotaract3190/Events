@@ -58,7 +58,7 @@ post_class: post-template
                         (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                         {% endif %}
                     </small>
-                </p>
+                </p> 
                 
                 <!-- Post Categories -->
                 <div class="after-post-tags">
@@ -66,7 +66,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                            <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                            <a href="{{ site.baseurl }}/{{ category | slugify }}/">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
