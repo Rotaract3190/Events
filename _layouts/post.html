@@ -17,7 +17,7 @@ post_class: post-template
             
             
             <!-- Post -->        
-            {% assign author = site.authors[page.author] %}
+            {% assign author = site.data.clubs[page.author] %}
             
             <div class="col-md-9 flex-first flex-md-unordered">
                 <div class="mainheading">
@@ -26,7 +26,7 @@ post_class: post-template
                     {% if page.author %}				
                     <div class="row post-top-meta">
                         <div class="col-md-2">
-                            <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                            <img class="author-thumb" src="{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ author.display_name }}">
                         </div>
                         <div class="col-md-10">
                             <a target="_blank" class="link-dark" href="{{ site.baseurl }}/clubs/{{ page.author }}/">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
@@ -73,6 +73,33 @@ post_class: post-template
                 </div>
                 <!-- End Categories -->
                 
+
+                <!-- Clubs -->
+                {% if page.tags.size > 1 %}
+
+                <p>
+                    <small>
+                        <span class="post-date">Partner Club{% if page.tags.size > 2 %}s{% endif %}</span>
+                    </small>
+                </p> 
+
+                <div class="after-post-tags">
+                    <ul class="tags">
+                        {% assign partnerclubs = page.tags | sort %}
+                        {% for pclub in partnerclubs %}
+                        {% if page.author != pclub %}
+                        {% assign club = site.data.clubs[pclub] %}
+                        <li>
+                            <a target="_blank" href="{{ site.baseurl }}/clubs/{{ pclub }}/">{{ club.display_name }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                {% endif %}
+                <!-- End Clubs -->
+
                 <!-- Prev/Next -->
                 <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     {% if page.previous.url %}
