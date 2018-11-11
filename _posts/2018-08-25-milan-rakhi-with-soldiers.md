@@ -6,7 +6,7 @@ tags: [rcbsw]
 description: "On the occasion of Rakshabandhan members of Rotaract Club of Bangalore Southwest visited the CMP centre. The little girls from Govt. schools tied rakhis to the Soldiers and created a feeling of family far away from home."
 categories: [ Community-Service ]
 image: /assets/images/milaan.jpg
-featured: true
+featured: false
 hidden: false
 ---
 
