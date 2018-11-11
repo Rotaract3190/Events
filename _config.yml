@@ -18,9 +18,17 @@ authors:
     display_name: Rotaract Club of Bangalore Southwest
     gravatar: 
     email: 
-    web: https://events.rotaract3190.org/clubs/rcbsw/
+    web: 
     twitter: https://www.facebook.com/RCBSW/
     description: "Rotaract Club of Bangalore Southwest"
+  rcgems:
+    name: RCGEMS
+    display_name: Rotaract Club of Gems B School
+    gravatar: 
+    email: 
+    web: 
+    twitter: https://www.facebook.com/Rotaract-Club-Of-Gems-B-School-RID-3190-1659414430758514/
+    description: "Rotaract Club of Gems B School"
 
 # Plugins
 plugins: 
