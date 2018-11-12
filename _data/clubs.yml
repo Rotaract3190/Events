@@ -1,7 +1,7 @@
 rcbsw:
   name: RCSBW
   display_name: Rotaract Club of Bangalore Southwest
-  logo: 
+  logo: /assets/images/clublogos/southwest.png
   email: 
   web: 
   twitter: https://www.facebook.com/RCBSW/ 
@@ -9,8 +9,16 @@ rcbsw:
 rcgems:
   name: RCGEMS
   display_name: Rotaract Club of Gems B School
-  logo: 
+  logo: /assets/images/clublogos/rcgems.jpg
   email:  
   web: 
   twitter: https://www.facebook.com/Rotaract-Club-Of-Gems-B-School-RID-3190-1659414430758514/
   description: "Rotaract Club of Gems B School"
+rcb:
+  name: RCB
+  display_name: Rotaract Club of Bangalore
+  logo: /assets/images/clublogos/rcbangalore.jpg
+  email:  
+  web: 
+  twitter: https://www.facebook.com/rcbintouch/
+  description: "The Rotaract Club of Bangalore, established in 1968 has been a proud member of Rotary district 3190 for over 50 year, making it one of the oldest club in the country. Backed by parent club - The Rotary Club of Bangalore"
