@@ -5,7 +5,7 @@ author: rcbsw
 tags: [rcbsw]
 description: "Rotaract club of Bangalore SouthWest conducted 'SEWA SANDWICH' ON  `7th August, 2018`, a club activity where all the members came together and prepared simple sandwiches. Those items were donated to underprivileged kids and slums across the slums of KR PURAM."
 categories: [ Club-Service, Community-Service ]
-image: /assets/images/sewasandwich.jpeg
+image: /assets/images/posts/sewasandwich.jpeg
 featured: false
 hidden: false
 ---

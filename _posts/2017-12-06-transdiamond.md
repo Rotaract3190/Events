@@ -5,7 +5,7 @@ author: rcbsw
 tags: [rcbsw]
 description: "Trans Diamond was  5-day long event dedicated to celebrate diversity and be the platform for active citizenship which was  held from 6 – 10, December 2017."
 categories: [ Community-Service ]
-image: /assets/images/transdiamond.jpg
+image: /assets/images/posts/transdiamond.jpg
 featured: false
 hidden: false
 ---
