@@ -6,8 +6,8 @@ tags: [rcb]
 description: "Rotaract Club of Bangalore's celebration of 50th Charter Day"
 categories: [ Club-Service ]
 image: /assets/images/posts/rcbangalore50.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 _**The Rotaract Club of Bangalore**_ was privileged to celebrate its `50th charter date` with members of their zone. 
