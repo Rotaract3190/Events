@@ -1,11 +1,12 @@
 rcbsw:
-  name: RCSBW
+  name: RCBSW
   display_name: Rotaract Club of Bangalore Southwest
   logo: /assets/images/clublogos/southwest.png
   email: 
   web: 
   twitter: https://www.facebook.com/RCBSW/ 
   description: "Rotaract Club of Bangalore Southwest"
+  
 rcgems:
   name: RCGEMS
   display_name: Rotaract Club of Gems B School
@@ -14,6 +15,7 @@ rcgems:
   web: 
   twitter: https://www.facebook.com/Rotaract-Club-Of-Gems-B-School-RID-3190-1659414430758514/
   description: "Rotaract Club of Gems B School"
+  
 rcb:
   name: RCB
   display_name: Rotaract Club of Bangalore
