@@ -90,7 +90,7 @@ post_class: post-template
                         {% if page.author != pclub %}
                         {% assign club = site.data.clubs[pclub] %}
                         <li>
-                            <a target="_blank" href="{{ site.baseurl }}/clubs/{{ pclub }}/">{{ club.display_name }}</a>
+                            <a href="{{ site.baseurl }}/clubs/{{ pclub }}/">{{ club.display_name }}</a>
                         </li>
                         {% endif %}
                         {% endfor %}

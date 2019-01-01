@@ -24,3 +24,12 @@ rcb:
   web: 
   twitter: https://www.facebook.com/rcbintouch/
   description: "The Rotaract Club of Bangalore, established in 1968 has been a proud member of Rotary district 3190 for over 50 year, making it one of the oldest club in the country. Backed by parent club - The Rotary Club of Bangalore"
+
+rckgf:
+  name: RCKGF
+  display_name: Rotaract Club of KGF
+  logo: /assets/images/clublogos/rckgf.jpg
+  email:  
+  web: 
+  twitter: https://www.facebook.com/rotaractkgf
+  description: "Rotaract Club KGF is a community based club of RI District 3190 based in golden city of Kolar Gold Fields, under Rotary Club KGF."
