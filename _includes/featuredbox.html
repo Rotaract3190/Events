@@ -27,7 +27,7 @@
                                 <img class="author-thumb" src="{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ author.display_name }}">
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a target="_blank" href="{{ site.baseurl }}/clubs/{{ post.author }}/">{{ author.display_name }}</a></span><br/>
+                                <span class="post-name"><a href="{{ site.baseurl }}/clubs/{{ post.author }}/">{{ author.display_name }}</a></span><br/>
                                 {% endif %}
                                 <span class="post-date">{{ post.date | date_to_string }}</span>
                                 </span>
