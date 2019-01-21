@@ -6,8 +6,8 @@ tags: [rckgf]
 description: "This is an initiative taken by us to spread awareness about Organic Farming and to celebrate KISAN DIWAS on 23rd of December 👩🏻🌾👨🏻‍🌾🐄🐂"
 categories: [ International-Service ]
 image: /assets/images/posts/iamafarmer.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 Greetings Rotaractors🙋🏻‍♂🙋🏻
