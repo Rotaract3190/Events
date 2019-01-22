@@ -3,11 +3,11 @@ layout: post
 title:  "Kabaddi, Le-Panga"
 author: rcbit
 tags: [rcbit]
-description: "The 3rd edition of our annual flagship event kabaddi \"Le Panga - 2k18\" kicked off with an amazing start at the BIT campus on 30th and 31st October, 2018."
+description: "The 3rd edition of our annual flagship event kabaddi &quot;Le Panga - 2k18&quot; kicked off with an amazing start at the BIT campus on 30th and 31st October, 2018."
 categories: [ Club-Service ]
 image: /assets/images/posts/kabaddi-lepanga.jpg
 featured: true
-hidden: false
+hidden: true
 ---
 
 The 3rd edition of our annual flagship event kabaddi "Le Panga - 2k18" kicked off with an amazing start at the BIT campus on 30th and 31st October, 2018. 
