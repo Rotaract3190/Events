@@ -35,6 +35,44 @@ post_class: post-template
                     </div>				
                     {% endif %}
                     
+                    <!-- Clubs -->
+                    {% if page.tags.size > 1 %}
+
+                    <p>
+                        <small>
+                            <span class="post-date">Partner Club{% if page.tags.size > 2 %}s{% endif %}</span>
+                        </small>
+                    </p> 
+                    
+                    <div class="row listrecent">
+
+                        {% assign partnerclubs = page.tags | sort %}
+                        {% for pclub in partnerclubs %}
+                        {% if page.author != pclub %}
+                        {% assign club = site.data.clubs[pclub] %}
+                        <div class="col-lg-6 col-md-6 mb-30px card-group">
+                            <div class="card h-100">
+                                <div class="card-footer bg-white">
+                                    <div class="wrapfooter">
+                                        <span class="meta-footer-thumb">
+                                            <a href="{{ site.baseurl }}/clubs/{{pclub}}/"><img class="author-thumb" src="{% if club.logo %}{% if club.logo contains "://" %}{{ club.logo }}{% else %}{{ club.logo | absolute_url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ club.display_name }}"></a>
+                                        </span>                
+                                        <span class="author-meta">
+                                            <span class="post-name"><a href="{{ site.baseurl }}/clubs/{{pclub}}/">{{ club.display_name }}</a></span><br/>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        
+                    </div>
+
+                    {% endif %}
+                    
+                    <!-- End Clubs -->
+                    
                     <!-- Post Title -->
                     <h1 class="posttitle">{{ page.title }}</h1> 
                     
@@ -73,33 +111,6 @@ post_class: post-template
                 </div>
                 <!-- End Categories -->
                 
-
-                <!-- Clubs -->
-                {% if page.tags.size > 1 %}
-
-                <p>
-                    <small>
-                        <span class="post-date">Partner Club{% if page.tags.size > 2 %}s{% endif %}</span>
-                    </small>
-                </p> 
-
-                <div class="after-post-tags">
-                    <ul class="tags">
-                        {% assign partnerclubs = page.tags | sort %}
-                        {% for pclub in partnerclubs %}
-                        {% if page.author != pclub %}
-                        {% assign club = site.data.clubs[pclub] %}
-                        <li>
-                            <a href="{{ site.baseurl }}/clubs/{{ pclub }}/">{{ club.display_name }}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-
-                {% endif %}
-                <!-- End Clubs -->
-
                 <!-- Prev/Next -->
                 <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                     {% if page.previous.url %}
