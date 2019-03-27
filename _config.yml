@@ -28,7 +28,7 @@ jekyll-archives:
     tag: '/clubs/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 9
 paginate_path: /page:num/
     
 # Other

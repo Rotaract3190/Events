@@ -51,3 +51,21 @@ rcsurana:
   web: 
   twitter: https://www.facebook.com/rcsc3190/
   description: "A youth organisation which focuses on serving the society as well as having fun and improving ourself in due course."
+
+rcsbmjc-kgf:
+  name: RCSBMJC-KGF
+  display_name: Rotaract Club of SBMJC KGF
+  logo: /assets/images/clublogos/rcsbmjc-kgf.png
+  email:  
+  web: 
+  twitter: https://www.instagram.com/rc_sbmjc__kgf/
+  description: "RC SBMJC-KGF 🏢Institution based club.. RID 3190 #rcsmbmjckgf #motto #SERVICEABOVESELF"
+
+rcpes:
+  name: RCPES
+  display_name: Rotaract Club of PES University
+  logo: /assets/images/clublogos/rcpes.jpg
+  email:  
+  web: 
+  twitter: https://www.facebook.com/rcp.3190/
+  description: "A Rotaract Club chartered by the students of PES University for bringing a change in the society around us."
