@@ -6,8 +6,8 @@ tags: [rcsbmjc-kgf,rcpes]
 description: "As a tribute to Indian Army people and to remember Army's day RAC SBMJC KGF in Association with RAC PES University organised a event - Sandesh to Soliders"
 categories: [ International-Service ]
 image: /assets/images/posts/sandeshtosoldiers-sbmjckgf.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 **Indian Army** – When we utter these two words, our heads get down with respect and gratitude to their sacrifice and nobility. 
