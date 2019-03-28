@@ -6,8 +6,8 @@ tags: [rcsbmjc-kgf]
 description: "RC SBMJC KGF conducted a speaker meet on `Route map to success` for 10th standard students by Dr.Rajdeep manwani. \"To be a good speaker,be a good listener first\""
 categories: [ Professional-Service ]
 image: /assets/images/posts/routemaptosuccess.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 > Success is not final, 
