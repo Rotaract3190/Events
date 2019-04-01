@@ -6,8 +6,8 @@ tags: [rcsbmjc-kgf]
 description: "ADOPTION OF SCHOOL FOR THE YEAR 2K18-19 We ROTARACT club of SBMJC KGF are happy to share that we have adopted the SVR SCHOOL to educate for the whole Rota year 2k18-19."
 categories: [ Community-Service ]
 image: /assets/images/posts/adoptionofSVRschool.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 ADOPTION OF SCHOOL FOR THE YEAR 2K18-19 We ROTARACT club of SBMJC KGF are happy to share that we have adopted the *SVR SCHOOL* to educate for the whole Rota year 2k18-19.
