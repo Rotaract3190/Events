@@ -5,6 +5,7 @@ meta_description: "Listing Events and Projects in Rotaract District 3190"
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/logo.png'
 og_img: '/assets/images/black_og.png'
+default_club_logo: '/assets/images/rotarywheel.jpg'
 baseurl: ""
 url: "https://events.rotaract3190.org"
 google_analytics: 'UA-122171689-3'

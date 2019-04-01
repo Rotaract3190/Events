@@ -69,3 +69,39 @@ rcpes:
   web: 
   twitter: https://www.facebook.com/rcp.3190/
   description: "A Rotaract Club chartered by the students of PES University for bringing a change in the society around us."
+
+rcbmsylk:
+  name: RCBMSYLK
+  display_name: Rotaract Club of BMS Yelahanka
+  logo: /assets/images/clublogos/rcbmsylk.png
+  email:  
+  web: 
+  twitter: https://www.facebook.com/bmsyrotaract/
+  description: "Want to be a part of one of the world's largest organization in the world? Join Rotaract..! Let us all together make a world better place to live.! Cheers!"
+
+rccmrit:
+  name: RCCMRIT
+  display_name: Rotaract Club of CMRIT
+  logo: /assets/images/clublogos/rccmrit.png
+  email:  
+  web: 
+  twitter: https://www.instagram.com/rotaract_cmrit/
+  description: "Join the Joy of Rotaraction"
+
+rcnagarjuna:
+  name: RCNAGARJUNA
+  display_name: Rotaract Club of Nagarjuna Degree College 
+  logo: 
+  email:  
+  web: 
+  twitter: https://events.rotaract3190.org/clubs/rcnagarjuna/
+  description: "Join the Joy of Rotaraction"
+
+rbw:
+  name: RBW
+  display_name: Rotaract Bangalore West
+  logo: /assets/images/clublogos/rbw.png
+  email:  
+  web: 
+  twitter: https://www.facebook.com/rcbwest/
+  description: "A 40 Year old Rotaract Club! We meet on Sundays at 11 AM at Malleshwaram. 13th Cross @Rotary Auditorium. Contact us at `president.rbw@gmail.com`"
