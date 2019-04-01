@@ -24,7 +24,7 @@
                             <div class="wrapfooter">
                                 {% if post.author %}
                                 <span class="meta-footer-thumb">
-                                <a href="{{ site.baseurl }}/clubs/{{ post.author }}/"><img class="author-thumb" src="{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ author.display_name }}"></a>
+                                <a href="{{ site.baseurl }}/clubs/{{ post.author }}/"><img class="author-thumb" src="{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ author.display_name }}"></a>
                                 </span>
                                 <span class="author-meta">
                                 <span class="post-name"><a href="{{ site.baseurl }}/clubs/{{ post.author }}/">{{ author.display_name }}</a></span><br/>

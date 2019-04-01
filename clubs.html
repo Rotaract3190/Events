@@ -18,7 +18,7 @@ description: The archive showing list of clubs showcasing their projects on &quo
                     <div class="card-footer bg-white">
                         <div class="wrapfooter">
                             <span class="meta-footer-thumb">
-                                <a href="{{ site.baseurl }}/clubs/{{tag}}/"><img class="author-thumb" src="{% if site.data.clubs[tag].logo %}{% if site.data.clubs[tag].logo contains "://" %}{{ site.data.clubs[tag].logo }}{% else %}{{ site.data.clubs[tag].logo | absolute_url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ site.data.clubs[tag].display_name }}"></a>
+                                <a href="{{ site.baseurl }}/clubs/{{tag}}/"><img class="author-thumb" src="{% if site.data.clubs[tag].logo %}{% if site.data.clubs[tag].logo contains "://" %}{{ site.data.clubs[tag].logo }}{% else %}{{ site.data.clubs[tag].logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}" alt="{{ site.data.clubs[tag].display_name }}"></a>
                             </span>                
                             <span class="author-meta">
                                 <span class="post-name"><a href="{{ site.baseurl }}/clubs/{{tag}}/">{{ site.data.clubs[tag].display_name }}</a></span><br/>
