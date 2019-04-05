@@ -5,7 +5,7 @@ author: rbw
 tags: [rbw]
 description: "Rotaract Bangalore West conducted a RBW Get-together, an opportunity to know and meet every member of the club and to have fun together."
 categories: [ Club-Service ]
-image: /assets/images/posts/rbw-get-together.jpg
+image: /assets/images/posts/2018/rbw-get-together.jpg
 featured: false
 hidden: false
 ---
@@ -19,7 +19,7 @@ Rtr Sahana Kashyap and Rtr Sushama helped us in organising the "Portrait" game w
 On the occasion of Christmas Rtr.Surya Kiran organised "Secret Santa" where each of us received a secret gift from our Santa's.
 
 The event ended up with the "Potluck”,  which had delicious food cooked and brought from each member. 
-<p><img src="/assets/images/posts/rbw-get-together2.jpg" width="100%" height="auto" alt="RBW GET TOGETHER"></p>
+<p><img src="/assets/images/posts/2018/rbw-get-together2.jpg" width="100%" height="auto" alt="RBW GET TOGETHER"></p>
 
 Rtr.Simran helped us in organising the same.
 

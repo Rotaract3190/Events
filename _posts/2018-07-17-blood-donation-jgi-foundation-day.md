@@ -5,7 +5,7 @@ author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "On the *FOUNDERS* *DAY* of *JGI* group of institutions, Blood donation camp was conducted by RC-SBMJC KGF with the support of KGF civil hospital."
 categories: [ Community-Service ]
-image: /assets/images/posts/bdc-sbmjckgf.jpg
+image: /assets/images/posts/2018/bdc-sbmjckgf.jpg
 featured: false
 hidden: false
 ---

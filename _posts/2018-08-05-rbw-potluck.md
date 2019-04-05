@@ -5,7 +5,7 @@ author: rbw
 tags: [rbw]
 description: "On the occasion of friendship day we took this opportunity to acknowledge the friends Rotaract has gifted us with through POTLUCK."
 categories: [ Club-Service ]
-image: /assets/images/posts/rbw-potluck.png
+image: /assets/images/posts/2018/rbw-potluck.png
 featured: false
 hidden: false
 ---
@@ -18,4 +18,4 @@ The menu of the potluck was completely vegetarian and there were many delicious 
 
 All the members had a great time and great food altogether.
 
-<p><img src="/assets/images/posts/rbw-potluck2.png" width="100%" height="auto" alt="Pot Luck"></p>
+<p><img src="/assets/images/posts/2018/rbw-potluck2.png" width="100%" height="auto" alt="Pot Luck"></p>

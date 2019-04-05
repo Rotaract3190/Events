@@ -5,7 +5,7 @@ author: rbw
 tags: [rbw,rcsouthparade]
 description: "Rotaract Bangalore West and Rotaract Club of Bangalore BIT  organised Creative Corners- A hands on Photoshop Workshop."
 categories: [ Professional-Service ]
-image: /assets/images/posts/cprtrainingworkshop.jpg
+image: /assets/images/posts/2019/cprtrainingworkshop.jpg
 featured: false
 hidden: false
 ---

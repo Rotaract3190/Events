@@ -5,7 +5,7 @@ author: rbw
 tags: [rbw]
 description: "Food drive - Gift a meal is an initiative by Rotaract Bangalore West to spread awareness about the importance of food. "
 categories: [ Community-Service, International-Service ]
-image: /assets/images/posts/food-drive.jpg
+image: /assets/images/posts/2018/food-drive.jpg
 featured: false
 hidden: false
 ---
@@ -41,10 +41,10 @@ We were overwhelmed by the response given to this project for the 2nd consecutiv
 
 > Joey does not share food but Rotaractors do.
 
-<p><img src="/assets/images/posts/food-drive2.jpg" width="100%" height="auto" alt="Food Drive"></p>
+<p><img src="/assets/images/posts/2018/food-drive2.jpg" width="100%" height="auto" alt="Food Drive"></p>
 
 We at Rotaract Bangalore West had our offline phase of the project Food drive-Gift a meal on 4th November where we cooked food for around 200 people and gifted it to the needy individuals. The entire event was run by the amount sponsored by Rotaractors from our club and various other clubs.
 
 The food was packed  and was gifted to needy individuals in various places like Majestic, Malleshwaram,Shivaji Nagar, Guttahalli, MD block,Yeshwanthpur Railway Station.
 
-<p><img src="/assets/images/posts/food-drive3.jpg" width="100%" height="auto" alt="Food Drive"></p>
+<p><img src="/assets/images/posts/2018/food-drive3.jpg" width="100%" height="auto" alt="Food Drive"></p>
