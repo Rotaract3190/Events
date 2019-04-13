@@ -1,270 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link rel="icon" href="{{ site.favicon | prepend: site.baseurl | prepend: site.url }}">
-    
-    <title>{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}</title>
-    
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
-    
+
+    <title>
+        {% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %}
+        | {{site.name}}</title>
+
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
+
     <meta property="fb:app_id" content="261774384602004" />
-	<meta name="fb:page_id" content="529311780455210" />
-	<meta property="og:title" content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="og:email" content="admin@rotaract3190.org"/>
-	<meta property="og:phone_number" content="+91-855-378-8515"/>
-	<meta property="og:locality" content="Bangalore"/>
-	<meta property="og:region" content="Karnataka"/>
-	<meta property="og:country-name" content="INDIA"/>
-	<meta property="og:site_name" content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.authors[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}"/>
-    <meta property="og:image" content="{% if page.image %}{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endif %}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
-	<meta property="og:image:width" content="630" />
-	<meta property="og:image:height" content="630" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="twitter:card" content="summary">
+    <meta name="fb:page_id" content="529311780455210" />
+    <meta property="og:title"
+        content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:email" content="admin@rotaract3190.org" />
+    <meta property="og:phone_number" content="+91-855-378-8515" />
+    <meta property="og:locality" content="Bangalore" />
+    <meta property="og:region" content="Karnataka" />
+    <meta property="og:country-name" content="INDIA" />
+    <meta property="og:site_name"
+        content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.authors[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}" />
+    <meta property="og:image"
+        content="{% if page.image %}{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endif %}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+    <meta property="og:image:width" content="630" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@Rotaract3190">
     <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-	<meta name="twitter:site" content="@Rotaract3190">
-	<meta name="twitter:title" content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}">
-	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="twitter:domain" content="{{ site.url }}">
-	<meta name="twitter:image:src" content="{% if page.image %}{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endif %}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+    <meta name="twitter:site" content="@Rotaract3190">
+    <meta name="twitter:title"
+        content="{% if page.type == "year" %}{{ page.date | date: "%Y"}}{% elsif page.type == "month" %}{{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}{{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ page.title }}{% endif %} | {{site.name}}">
+    <meta name="twitter:description"
+        content="{% if page.description %}{{ page.description }}{% elsif page.type == "year" %}Rotaract Distirct 3190's archive of projects during {{ page.type }} {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Rotaract Distirct 3190's archive of projects in the {{ page.type }} of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Rotaract Distirct 3190's archive of projects on {{ page.type }} of {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "category" %}Rotaract Distirct 3190's archive of projects under avenue: {{ page.title }}{% elsif page.type == "tag" %}Rotaract Distirct 3190's arvhive of projects by {% assign author = site.data.clubs[page.title] %}{{ author.display_name }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:domain" content="{{ site.url }}">
+    <meta name="twitter:image:src"
+        content="{% if page.image %}{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% endif %}{% elsif page.type == "tag" %}{% assign author = site.data.clubs[page.title] %}{% if author.logo %}{% if author.logo contains "://" %}{{ author.logo }}{% else %}{{ author.logo | absolute_url }}{% endif %}{% else %}{{ site.default_club_logo | prepend: site.baseurl | prepend: site.url }}{% endif %}{% else %}{{ site.og_img | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
-    <meta name="keywords" content="rotaract 3190 events, rotaract 3190 projects, rotaract3190, rotaract, rotaract 3190, rotaract district 3190, community service, club service, rotaract bangalore, rotary3190, rotary district 3190, rotary 3190, rid3190"/>
-	<meta name="author" content="ZeoSpec" />
-	<meta name="subject" content="A Step towards the change!!!">
-	<meta name="copyright"content="Rotaract District 3190">
-	<meta name="Classification" content="voluntary organization">
-	<meta name="designer" content="ZeoSpec">
-	<meta name="reply-to" content="admin@rotaract3190.org">
-	<meta name="owner" content="Rotaract District 3190">
-	<meta name="url" content="https://rotaract3190.org">
-	<meta name="identifier-URL" content="https://rotaract3190.org">
-	<meta name="directory" content="submission">
-	<meta name="category" content="events">
-	<meta http-equiv="cache-control" content="public" />
+    <meta name="keywords"
+        content="rotaract 3190 events, rotaract 3190 projects, rotaract3190, rotaract, rotaract 3190, rotaract district 3190, community service, club service, rotaract bangalore, rotary3190, rotary district 3190, rotary 3190, rid3190" />
+    <meta name="author" content="ZeoSpec" />
+    <meta name="subject" content="A Step towards the change!!!">
+    <meta name="copyright" content="Rotaract District 3190">
+    <meta name="Classification" content="voluntary organization">
+    <meta name="designer" content="ZeoSpec">
+    <meta name="reply-to" content="admin@rotaract3190.org">
+    <meta name="owner" content="Rotaract District 3190">
+    <meta name="url" content="https://rotaract3190.org">
+    <meta name="identifier-URL" content="https://rotaract3190.org">
+    <meta name="directory" content="submission">
+    <meta name="category" content="events">
+    <meta http-equiv="cache-control" content="public" />
     <meta http-equiv="Expires" content="0">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    
-    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+
     <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
-    
+
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-    <script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-8876057945727824",
-			enable_page_level_ads: true
-		});
-	</script>
-	
+
 </head>
 
 {% if site.google_analytics %}
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
     ga('create', '{{site.google_analytics}}', 'auto');
     ga('send', 'pageview');
 </script>
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
 <body class="{{ layout }}">
-    
-    
+
+
     <!-- Begin Menu Navigation
         ================================================== -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-            
-            <div class="container pr-0">    
-                
-                <!-- Begin Logo -->
-                <a class="navbar-brand" href="{{ site.baseurl }}/">
-                    <img src="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.name }}">
-                </a>
-                <!-- End Logo -->
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                
-                <div class="collapse navbar-collapse" id="navbarMediumish">
-                    
-                    <!-- Begin Menu -->
-                    
-                    <ul class="navbar-nav ml-auto">
-                        
-                        {% if page.url == "/" %}
-                        <li class="nav-item active">
-                            {% else %}
-                            <li class="nav-item">
-                                {% endif %}
-                                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-                            </li>
-                            
-                            <!-- {% if page.url == "/about.html" %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+        <div class="container pr-0">
+
+            <!-- Begin Logo -->
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <img src="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.name }}">
+            </a>
+            <!-- End Logo -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarMediumish">
+
+                <!-- Begin Menu -->
+
+                <ul class="navbar-nav ml-auto">
+
+                    {% if page.url == "/" %}
+                    <li class="nav-item active">
+                        {% else %}
+                    <li class="nav-item">
+                        {% endif %}
+                        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                    </li>
+
+                    <!-- {% if page.url == "/about.html" %}
                             <li class="nav-item active">
                                 {% else %} -->
-                                <li class="nav-item">
-                                    <!-- {% endif %} -->
-                                    <a target="_blank" class="nav-link" href="https://rotaract3190.org">About</a>
-                                </li>
+                    <li class="nav-item">
+                        <!-- {% endif %} -->
+                        <a target="_blank" class="nav-link" href="https://rotaract3190.org">About</a>
+                    </li>
 
-                            {% if page.url == "/clubs/" %}
-                            <li class="nav-item active">
-                                {% else %}
-                                <li class="nav-item">
-                                    {% endif %}
-                                    <a class="nav-link" href="{{ site.baseurl }}/clubs">Clubs</a>
-                                </li>
-                                
-                            {% if page.url == "/archive/" %}
-                            <li class="nav-item active">
-                                {% else %}
-                                <li class="nav-item">
-                                    {% endif %}
-                                    <a class="nav-link" href="{{ site.baseurl }}/archive">Archive</a>
-                                </li>
+                    {% if page.url == "/clubs/" %}
+                    <li class="nav-item active">
+                        {% else %}
+                    <li class="nav-item">
+                        {% endif %}
+                        <a class="nav-link" href="{{ site.baseurl }}/clubs">Clubs</a>
+                    </li>
 
-                                <li class="nav-item">
-                                    <a target="_blank" class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdPHPfQy4E4nFGMbBG6vAH2W51WIv4PlN5KrXkmGVtVffwKIg/viewform?usp=sf_link">Submit Project</a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a target="_blank" class="nav-link" href="https://www.facebook.com/RIDist3190/"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a target="_blank"  class="nav-link" href="https://www.instagram.com/rotaract3190/"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a target="_blank"  class="nav-link" href="https://twitter.com/Rotaract3190"><i class="fab fa-twitter"></i></a>
-                                </li>
+                    {% if page.url == "/archive/" %}
+                    <li class="nav-item active">
+                        {% else %}
+                    <li class="nav-item">
+                        {% endif %}
+                        <a class="nav-link" href="{{ site.baseurl }}/archive">Archive</a>
+                    </li>
 
-                            </ul>		
-                            
-                            <!-- End Menu -->
-                            
-                        </div>
-                        
-                    </div>
-                </nav>
-                <!-- End Navigation
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfBdkLPE1x5zheS4it9R9Fto-djpEf_g9l10HoFQnAFCxlNYA/viewform?usp=sf_link">Submit
+                            Project</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="https://www.facebook.com/RIDist3190/"><i
+                                class="fab fa-facebook-f"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="https://www.instagram.com/rotaract3190/"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="https://twitter.com/Rotaract3190"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+
+                    {% include search-lunr.html %}
+
+                </ul>
+
+                <!-- End Menu -->
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navigation
                     ================================================== -->
-                    
-                    <div class="site-content">   
-                        <div class="container">
-                            
-                            <!-- Site Title
+
+    <div class="site-content">
+        <div class="container">
+
+            <!-- Site Title
                                 ================================================== -->
-                                <div class="mainheading">
-                                    <h1 class="sitetitle">{{ site.name }}</h1>
-                                    <p class="lead">
-                                        {{ site.description }}
-                                    </p>
-                                </div>
-                                
-                                
-                                
-                                <!-- Content
-                                    ================================================== --> 
-                                    <div class="main-content">
-                                        {{ content }}
-                                    </div>
-                                    
-                                    <!-- Bottom Alert Bar
+            <div class="mainheading">
+                <h1 class="sitetitle">{{ site.name }}</h1>
+                <p class="lead">
+                    {{ site.description }}
+                </p>
+            </div>
+
+
+
+            <!-- Content
+                                    ================================================== -->
+            <div class="main-content">
+                {{ content }}
+            </div>
+
+            <!-- Bottom Alert Bar
                                         ================================================== -->
-                                        <div class="alertbar">
-                                            <div class="container text-center">
-                                                <span><a href="{{ site.baseurl }}/"><img src="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" alt="{{site.title}}"></a> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-                                                <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-                                                    <div class="mc-field-group">
-                                                        <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-                                                        <input type="submit" value="Subscribe" name="subscribe" class="heart">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>    
-                                        
-                                    </div><!-- /.container -->
-                                    
-                                    <!-- Categories Jumbotron ================================================== -->
-                                    <div class="jumbotron fortags">
-                                        <div class="d-flex h-100">
-                                            <!-- <div class="col-md-4 align-self-center text-center h-100">
+            <div class="alertbar">
+                <div class="container text-center">
+                    <span><a href="{{ site.baseurl }}/"><img
+                                src="{{ site.logo | prepend: site.baseurl | prepend: site.url }}"
+                                alt="{{site.title}}"></a> &nbsp; Never miss a <b>story</b> from us, subscribe to our
+                        newsletter</span>
+                    <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form"
+                        class="wj-contact-form validate" target="_blank" novalidate>
+                        <div class="mc-field-group">
+                            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL"
+                                autocomplete="on" required>
+                            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div><!-- /.container -->
+
+        <!-- Categories Jumbotron ================================================== -->
+        <div class="jumbotron fortags">
+            <div class="d-flex h-100">
+                <!-- <div class="col-md-4 align-self-center text-center h-100">
                                                 <div class="d-flex align-items-center justify-content-center h-100">
                                                     <h2 class="d-md-block d-none align-self-center">Explore →</h2>
                                                 </div>
                                             </div> -->
-                                            <div class="col-md-8 align-self-center text-center">
-                                                {% assign tags_list = site.categories %}  
-                                                {% if tags_list.first[0] == null %}
-                                                {% for tag in tags_list %} 
-                                                <a href="{{ site.baseurl }}/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
-                                                {% endfor %}
-                                                {% else %}
-                                                {% for tag in tags_list %} 
-                                                <a href="{{ site.baseurl }}/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
-                                                {% endfor %}
-                                                {% endif %}
-                                                {% assign tags_list = nil %}
+                <div class="col-md-8 align-self-center text-center">
+                    {% assign tags_list = site.categories %}
+                    {% if tags_list.first[0] == null %}
+                    {% for tag in tags_list %}
+                    <a href="{{ site.baseurl }}/{{ tag }}">{{ tag | capitalize }} {{ site.tags[tag].size }}</a>
+                    {% endfor %}
+                    {% else %}
+                    {% for tag in tags_list %}
+                    <a href="{{ site.baseurl }}/{{ tag[0] }}">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a>
+                    {% endfor %}
+                    {% endif %}
+                    {% assign tags_list = nil %}
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    
-                                    <!-- Begin Footer
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Begin Footer
                                         ================================================== -->
-                                        <footer class="footer">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                                                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-                                                    </div>
-                                                    <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                                                        <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish Theme</a> modified by <a target="_blank" rel="noopener noreferrer" href="https://zeospec.com">ZeoSpec</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </footer>
-                                        <!-- End Footer
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                    </div>
+                    <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                        <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish
+                            Theme</a> modified by <a target="_blank" rel="noopener noreferrer"
+                            href="https://zeospec.com">ZeoSpec</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer
                                             ================================================== -->
-                                            
-                                            
-                                        </div> <!-- /.site-content>
+
+
+    </div>
+    <!-- /.site-content>
                                             
                                             <!-- Bootstrap core JavaScript
                                                 ================================================== -->
-                                                <!-- Placed at the end of the document so the pages load faster -->
-                                                
-                                                <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-                                                
-                                                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                                                
-                                                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-                                                
-                                                <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
-                                                
-                                                <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
-                                                
-                                                <!-- <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script> -->
-                                            </body>
-                                            </html>
-                                            
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+
+    {% if site.lazyimages == "enabled" %}
+    <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+    {% endif %}
+
+    <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script> -->
+</body>
+
+</html>
