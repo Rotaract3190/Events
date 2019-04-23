@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I am Framer"
+title:  "I am Farmer"
 author: rckgf
 tags: [rckgf]
 description: "This projects main focus was to create awareness about farmers, farming and different type of farming like organic farming etc."
