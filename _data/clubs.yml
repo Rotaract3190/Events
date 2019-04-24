@@ -123,4 +123,30 @@ rotarykgf:
   web: 
   twitter: 
   description: "Rotary in Action"
-  
+
+rcgoldenrock:
+  name: RCGOLDENROCK
+  display_name: Rotaract Club of Golden Rock
+  logo:
+  email:
+  web:
+  twitter:
+  description: "Join the Joy of Rotaraction"
+
+rcchandapurrupashi:
+  name: RCCHANDAPURRUPASHI
+  display_name: Rotaract Club of Chandapur Rupashi RID 3282
+  logo:
+  email:
+  web:
+  twitter:
+  description: "Join the Joy of Rotaraction"
+
+rcopju:
+  name: RCOPJU
+  display_name: RAC OPJU, Sonepat
+  logo:
+  email:
+  web:
+  twitter:
+  description: "Join the Joy of Rotaraction"
