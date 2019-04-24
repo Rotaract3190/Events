@@ -1,13 +1,13 @@
 # Site
-name: "Events – Rotaract 3190"
-description: "Listing Events and Projects in Rotaract District 3190"
-meta_description: "Listing Events and Projects in Rotaract District 3190"
+name: "3190 Showcase"
+description: "Showcasing Events and Projects in Rotaract District 3190"
+meta_description: "Showcasing Events and Projects in Rotaract District 3190"
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/logo.png'
 og_img: '/assets/images/black_og.png'
 default_club_logo: '/assets/images/rotarywheel.jpg'
 baseurl: ""
-url: "https://events.rotaract3190.org"
+url: "https://showcase.rotaract3190.org"
 google_analytics: 'UA-122171689-3'
 # disqus: 'rotaract3190'
 mailchimp-list: 'https://rotaract3190.us19.list-manage.com/subscribe/post?u=ec2994fa04b0856e3913be84e&amp;id=7eb0482b27'
@@ -40,5 +40,5 @@ highlighter: rouge
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
 
-include:
-  - _redirects
+# include:
+#   - _redirects
