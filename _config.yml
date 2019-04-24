@@ -39,3 +39,6 @@ highlighter: rouge
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "enabled"
+
+include:
+  - _redirects
