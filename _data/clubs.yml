@@ -150,3 +150,13 @@ rcopju:
   web:
   twitter:
   description: "Join the Joy of Rotaraction"
+
+rbv:
+  name: RBV
+  display_name: Rotaract Bangalore Vijayanagar
+  logo: /assets/images/clublogos/rbv.png
+  email:
+  web:
+  twitter: https://www.facebook.com/Rotaractbangalorevijayanagar/
+  description: "We RBV by accepting the responsibility, take effective steps towards our goal by raising funds for shelter box to feed those needing a helping hand & organizing special events."
+
