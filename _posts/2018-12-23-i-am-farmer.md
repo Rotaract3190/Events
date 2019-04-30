@@ -6,8 +6,8 @@ tags: [rckgf]
 description: "This projects main focus was to create awareness about farmers, farming and different type of farming like organic farming etc."
 categories: [ Community-Service,International-Service ]
 image: /assets/images/posts/2018/iamfarmer2.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 This projects main focus was to create awareness about farmers, farming and different type of farming like organic farming etc.
