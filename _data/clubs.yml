@@ -160,3 +160,29 @@ rbv:
   twitter: https://www.facebook.com/Rotaractbangalorevijayanagar/
   description: "We RBV by accepting the responsibility, take effective steps towards our goal by raising funds for shelter box to feed those needing a helping hand & organizing special events."
 
+rckssem:
+  name: RCKSSEM
+  display_name: Rotaract Club of KSSEM
+  logo: /assets/images/clublogos/rckssem.jpg
+  email:
+  web:
+  twitter: https://www.facebook.com/rotractclubkssem/
+  description: "This club was formed with the main intention of helping students gain network worldwide and to make India a better place."
+
+rcylk:
+  name: RCYLK
+  display_name: Rotaract Club of Yelahanka
+  logo: /assets/images/clublogos/rcylk.jpg
+  email:
+  web:
+  twitter: https://www.facebook.com/yelahanka.rotaract/
+  description: "Rotaract Club Of Yelahanka is a platform for youngsters with different individuality who share a passion to serve the society. Its a non-profit voluntary organisation where people from different aspects of life meet and share their thoughts."
+
+rcmes:
+  name: RCMES
+  display_name: Rotaract Club of MES
+  logo: 
+  email:
+  web:
+  twitter: 
+  description: "Rotary in Action."
