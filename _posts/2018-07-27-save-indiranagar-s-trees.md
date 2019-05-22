@@ -10,7 +10,7 @@ description: >-
   Stop the felling of around 200 trees in Indiranagar for redevelopment of the
   BDA (Bangalore Development Authority) complex.
 Categories:
-  - 'Club-Service, Community-Service, International-Service, Professional-Service'
+  - Community-Service
 image: /assets/images/posts/riy18-19/saveindiranagartrees.jpg
 featured: false
 hidden: false
