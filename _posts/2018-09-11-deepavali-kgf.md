@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Deepavali Celebration"
+date: 2018-09-11
 author: rckgf
 tags: [rckgf,rcgems]
 description: "On the day of deepavali Celebration rotaractors from Rotaract Club of Gems B School had come to KGF. And we celebrated the festival of lights by visiting orphanage for specially abled people."

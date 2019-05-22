@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Zone Emerald Samelana"
+date: 2018-09-01
 author: rcgems
 tags: [rcgems]
 description: "Zone Emerald Samelana was all about learning aout the rich heritage of Karnataka and also facilitating of the learning of kannada language"

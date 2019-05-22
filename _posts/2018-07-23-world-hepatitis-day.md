@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "World Hepatitis Day –Social Media Awareness Campaign"
+date: 2018-07-23
 author: rcb
 tags: [rcb]
 description: "\"World Hepatitis Day – Social Media Awareness Campaign\" aimed to spread Awareness and combat viral Hepatitis around the world."

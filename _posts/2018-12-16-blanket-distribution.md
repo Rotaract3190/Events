@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blanket Distribution drive"
+date: 2018-12-16
 author: rbv
 tags: [rbv]
 description: "Rotaract Bangalore Vijayanagar gave them a ray of hope for all those who occupied a little space under the flyover, front space of a closed shop, bus stands and railway stations."

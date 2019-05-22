@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Project Autumn"
+date: 2019-03-21
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "Rotaract club of SBMJC-KGF & Asha Beauty Parlour, Has visited 2 orphanages Happy home On 4th April and Shantinbhavan Krishna Giri on 6th April."

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Route map to success"
+date: 2019-01-06
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "RC SBMJC KGF conducted a speaker meet on `Route map to success` for 10th standard students by Dr.Rajdeep manwani. \"To be a good speaker,be a good listener first\""

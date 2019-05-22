@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "I am Farmer"
+date: 2018-12-23
 author: rckgf
 tags: [rckgf]
 description: "This projects main focus was to create awareness about farmers, farming and different type of farming like organic farming etc."

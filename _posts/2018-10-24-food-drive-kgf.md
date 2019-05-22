@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Food drive"
+date: 2018-10-24
 author: rckgf
 tags: [rckgf]
 description: "The food was arranged for 30 specially abled in an orphanage in SG Kote , Bangarpet. This was arranged by one of our rotaractor Rtr. Meghana and her family helped us in arranging the drive."

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blood Donation Camp (JGI Founder Day)"
+date: 2018-07-17
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "On the *FOUNDERS* *DAY* of *JGI* group of institutions, Blood donation camp was conducted by RC-SBMJC KGF with the support of KGF civil hospital."

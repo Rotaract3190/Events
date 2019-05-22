@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Putani Prayana"
+date: 2018-12-02
 author: rckgf
 tags: [rckgf]
 description: "This projects main focus was to create awareness about farmers, farming and different type of farming like organic farming etc."

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "RBW GET TOGETHER"
+date: 2018-12-22
 author: rbw
 tags: [rbw]
 description: "Rotaract Bangalore West conducted a RBW Get-together, an opportunity to know and meet every member of the club and to have fun together."

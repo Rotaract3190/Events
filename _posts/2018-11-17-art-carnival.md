@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Art Carnival"
+date: 2018-11-17
 author: rbw
 tags: [rbw]
 description: "On account of Children’s day, an Art Competition was held for School going children of Standard 3 to Standard 10. The information was shared to all the schools in Bangalore with the support of Department of Public Instruction."

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Int’l Friendship Day Meet"
+date: 2018-08-05
 author: rcb
 tags: [rcb]
 description: "otaract Club of Bangalore Members celebrated the International Friendship Day"
