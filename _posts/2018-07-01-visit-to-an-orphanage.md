@@ -23,5 +23,3 @@ We later distributed some snacks. They all patiently waited till everybody recei
 We provided them with books and other stationery items they required at school. We also distributed bubbles which we were all thrilled to play with. We sang together and had a hearty time.
 
 For a first event, it was perfect. We had a beautiful experience and hope to continue spending more time with them.
-
-Check here for more details: <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/rotaractbangalorejunction?igshid=17mzaszvdwd02">Instagram</a>
