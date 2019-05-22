@@ -5,7 +5,7 @@ author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf, rcchandapurrupashi]
 description: "Rotaract club of CHANDPUR RUPASHI RID 3282 BANGLADESH in association with *Rotaract club of SBMJC KGF celebrated INTERNATIONAL MOTHER LANGUAGE DAY(IMLD) Every year on 21st  February with overall objective to promote linguistic diversity and multilingual education."
 categories: [ International-Service ]
-image: /assets/images/posts/2019/motherlanguageday2.jpg
+image: /assets/images/posts/riy18-19/motherlanguageday2.jpg
 featured: false
 hidden: false
 ---
@@ -17,6 +17,6 @@ This day is highlighted by paying tribute to the martyrs who sacrificed their li
 
 We got a clear picture from the chief guests of event Dr.Manjula & Dr. Radha ...
 
-<p><img src="/assets/images/posts/2019/motherlanguageday.jpg" width="100%" height="auto" alt="International mother language day"></p>
+<p><img src="/assets/images/posts/riy18-19/motherlanguageday.jpg" width="100%" height="auto" alt="International mother language day"></p>
 
 Check here for more details: <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/p/BttIsvDHCOE/?utm_source=ig_share_sheet&igshid=d70ailu3rpb1">Instagram</a>

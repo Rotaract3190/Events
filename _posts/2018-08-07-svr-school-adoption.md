@@ -5,7 +5,7 @@ author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "ADOPTION OF SCHOOL FOR THE YEAR 2K18-19 We ROTARACT club of SBMJC KGF are happy to share that we have adopted the SVR SCHOOL to educate for the whole Rota year 2k18-19."
 categories: [ Community-Service ]
-image: /assets/images/posts/2018/adoptionofSVRschool.jpg
+image: /assets/images/posts/riy18-19/adoptionofSVRschool.jpg
 featured: false
 hidden: false
 ---
@@ -20,7 +20,7 @@ Nearly 40 active Rotaractors participated in developing the young minds.
 
 It was pleasure to have our principal madam Dr.Rekha Sethi with us...
 
-<p><img src="/assets/images/posts/2018/adoptionofSVRschool2.jpg" width="100%" height="auto" alt="SVS School"></p>
+<p><img src="/assets/images/posts/riy18-19/adoptionofSVRschool2.jpg" width="100%" height="auto" alt="SVS School"></p>
 
 Check here for more details: <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/p/BmKOkJ_BwYI/?utm_source=ig_share_sheet&igshid=hbpok5a33j0e">Instagram</a>
 
