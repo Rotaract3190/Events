@@ -186,3 +186,12 @@ rcmes:
   web:
   twitter: 
   description: "Rotary in Action."
+
+rcjunction:
+  name: RCJUNCTION
+  display_name: Rotaract Bangalore Junction
+  logo: /assets/images/clublogos/rcjunction.jpg
+  email:
+  web:
+  twitter: https://www.facebook.com/rotaractbangalorejunction/
+  description: "The Rotaract Club of Bangalore Junction is a community based club sponsored by the Rotary Club of Bangalore Junction, Rotary International District 3190. A well established youth organisation committed to serving the society towards holistic development."
