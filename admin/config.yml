@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (master by default)
+
+media_folder: "assets/img/posts" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Author", name: "author", widget: "string"}
+      - label: "Tags/Partners"
+        name: "tags"
+        widget: "list" 
+        allow_add: true
+        default: ["Option1, Option2"]
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Avenues"
+        name: "Categories"
+        widget: "list" 
+        allow_add: true
+        default: ["Club-Service, Community-Service, International-Service, Professional-Service"]
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Featured?", name: "featured", widget: "boolean", default: false}
+      - {label: "Hidden?", name: "hidden", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
