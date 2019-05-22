@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "RBW RASAPRASHNE"
+date: 2018-11-11
 author: rbw
 tags: [rbw]
 description: "Kannada Rajyotsava, 'The birth of Karnataka state' is celebrated throughout the month of November. Keeping this in mind Rotaract Bangalore West conducted **RBW Rasaprashne** - A Quiz on Karnataka. "

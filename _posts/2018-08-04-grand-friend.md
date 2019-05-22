@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Grand Friend V2.0"
+date: 2018-08-04
 author: rbw
 tags: [rbw]
 description: "Grand Friend is an initiative by Rotaract Bangalore West which was organised on the eve of friendship day by at Sree old age home. The rotaractors of RBW planned to spend quality time with the elderly people and also celebrate friendship day with them."

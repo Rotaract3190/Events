@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Pledge2Protect"
+date: 2018-06-30
 author: rcb
 tags: [rcb]
 description: "Rotaract Club of Bangalore looks to Promote and Educate School Kids about our Heritage and culture."

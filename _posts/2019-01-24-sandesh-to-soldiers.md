@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sandesh to Soldiers"
+date: 2019-01-24
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf,rcpes]
 description: "As a tribute to Indian Army people and to remember Army's day RAC SBMJC KGF in Association with RAC PES University organised a event - Sandesh to Soliders"

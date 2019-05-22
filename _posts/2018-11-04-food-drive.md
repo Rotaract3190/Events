@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Food Drive - Online and Offline Phase"
+date: 2018-11-04
 author: rbw
 tags: [rbw]
 description: "Food drive - Gift a meal is an initiative by Rotaract Bangalore West to spread awareness about the importance of food. "

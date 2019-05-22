@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "CPR TRAINING WORKSHOP"
+date: 2019-02-17
 author: rbw
 tags: [rbw,rcsouthparade]
 description: "Rotaract Bangalore West and Rotaract Club of Bangalore BIT  organised Creative Corners- A hands on Photoshop Workshop."

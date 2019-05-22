@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dandiya Dhamaal V1.6"
+date: 2018-10-13
 author: rbw
 tags: [rbw]
 description: "Dandiya Dhamaal v1.6 is a fund raising club service project by Rotaract Bangalore West. We aimed to raise funds for literacy and women and children welfare projects."

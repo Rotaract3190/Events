@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Trek For a Cause"
+date: 2019-02-17
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf,rcpes,rcbmsylk,rccmrit,rcnagarjuna]
 description: "Rotaract club of SBMJC KGF organised a mega trek [A Trek for a cause] on 17feb 2019 at Antharagange, KOLAR...."

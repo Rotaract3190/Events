@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Blankets Distribution to Needy"
+date: 2019-01-05
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf, rcgoldenrock]
 description: "RaC Golden rock in association with RaC SBMJC KGF, took a step forward to help the needy people in GONMAKAHALLI village KGF by distributing 100 blankets The guest for today's event our beloved principal Dr. Rekha sethi, Ms Sandhya.."

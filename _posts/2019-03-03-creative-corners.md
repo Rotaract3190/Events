@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Creative Corners"
+date: 2019-03-03
 author: rbw
 tags: [rbw,rcbit]
 description: "Rotaract Bangalore West and Rotaract Club of Bangalore BIT  organised Creative Corners- A hands on Photoshop Workshop."

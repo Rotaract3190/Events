@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lunch Party"
+date: 2019-02-06
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "As a part joy of giving we Rotaract club of SBMJC KGF had an visit to Spandhana orphanage kolar."

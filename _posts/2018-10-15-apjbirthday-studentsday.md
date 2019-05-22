@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dr APJ Abdul Kalam Birthday (National Students day)"
+date: 2018-10-15
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "On the occasion of October 2nd Gandhi jayanthi. lets clean our society by Dr APJ Abdul Kalam Birthday (National Students day)."

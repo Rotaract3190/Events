@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Gratuliere - A Token of Honor"
+date: 2018-09-08
 author: rcylk
 tags: [rcylk,rcnagarjuna]
 description: "A zonal conference (Zone Ruby) focused on promoting farmers day and organic farming. More than 60 rotaractors from different parts of RID 3190 had participated."

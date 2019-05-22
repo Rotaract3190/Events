@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Teachers day celebration in SVR global School"
+date: 2018-09-09
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf]
 description: "Teacher's have thousands of people who remember them for rest of their lives. As *RC SBMJC KGF  adopted SVR School in Bangarpet*, we are so happy to celebrate *Teacher's day* in the school along with SVR school children and rotaract club of SBMJC KGF."

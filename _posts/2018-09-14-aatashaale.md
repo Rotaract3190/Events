@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "AataShaale"
+date: 2018-09-14
 author: rbv
 tags: [rbv]
 description: "Rotaract Bangalore Vijayanagar organized a “Toy Drive” from 14th September 2018 to November 14th 2018."

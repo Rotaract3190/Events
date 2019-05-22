@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Kisan Diwas (Zone Ruby Conclave)"
+date: 2018-12-23
 author: rckgf
 tags: [rckgf,rcsbmjc-kgf, rckssem, rcsurana, rcylk, rcmes]
 description: "The food was arranged for 30 specially abled in an orphanage in SG Kote , Bangarpet. This was arranged by one of our rotaractor Rtr. Meghana and her family helped us in arranging the drive."

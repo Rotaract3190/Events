@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "50th Charter Day"
+date: 2018-07-28
 author: rcb
 tags: [rcb]
 description: "Rotaract Club of Bangalore's celebration of 50th Charter Day"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Swachh bharath Diwas"
+date: 2018-08-10
 author: rcsbmjc-kgf
 tags: [rcsbmjc-kgf, rotarykgf]
 description: "On the occasion  of October 2nd Gandhi jayanthi. lets clean our society  by swachh Bharath Diwas."

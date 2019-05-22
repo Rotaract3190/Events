@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "POTLUCK"
+date: 2018-08-05
 author: rbw
 tags: [rbw]
 description: "On the occasion of friendship day we took this opportunity to acknowledge the friends Rotaract has gifted us with through POTLUCK."
