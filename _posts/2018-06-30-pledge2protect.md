@@ -5,7 +5,7 @@ author: rcb
 tags: [rcb]
 description: "Rotaract Club of Bangalore looks to Promote and Educate School Kids about our Heritage and culture."
 categories: [ Community-Service ]
-image: /assets/images/posts/2018/pledge2protect.jpg
+image: /assets/images/posts/riy18-19/pledge2protect.jpg
 featured: false
 hidden: false
 ---

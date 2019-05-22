@@ -5,7 +5,7 @@ author: rckgf
 tags: [rckgf]
 description: "The world need more greenery and less plastic but we got the opposite of what it is required"
 categories: [ International-Service, Community-Service ]
-image: /assets/images/posts/2018/bottle-tree-plantation2.png
+image: /assets/images/posts/riy18-19/bottle-tree-plantation2.png
 featured: false
 hidden: false
 ---

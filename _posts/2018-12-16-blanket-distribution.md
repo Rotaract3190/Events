@@ -5,7 +5,7 @@ author: rbv
 tags: [rbv]
 description: "Rotaract Bangalore Vijayanagar gave them a ray of hope for all those who occupied a little space under the flyover, front space of a closed shop, bus stands and railway stations."
 categories: [ Community-Service ]
-image: /assets/images/posts/2018/rbvblanketdistribution.png
+image: /assets/images/posts/riy18-19/rbvblanketdistribution.png
 featured: false
 hidden: false
 ---
@@ -16,4 +16,4 @@ Rotaract Bangalore Vijayanagar gave them a ray of hope for all those who occupie
 
 We distributed 15 blankets across Vijayanagar streets and extended the event across yeshwantpur railway station, Basaveshwar nagar Nagarbhavi and Kengeri localities and distributed over 35 blankets.
 
-<p><img src="/assets/images/posts/2018/rbvblanketdistribution2.png" width="100%" height="auto" alt="Blanket Distribution drive"></p>
+<p><img src="/assets/images/posts/riy18-19/rbvblanketdistribution2.png" width="100%" height="auto" alt="Blanket Distribution drive"></p>
