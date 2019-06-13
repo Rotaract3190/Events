@@ -1,5 +1,4 @@
 rcbsw:
-  name: RCBSW
   display_name: Rotaract Club of Bangalore Southwest
   logo: /assets/images/clublogos/southwest.png
   email: 
@@ -8,7 +7,6 @@ rcbsw:
   description: "Rotaract Club of Bangalore Southwest"
   
 rcgems:
-  name: RCGEMS
   display_name: Rotaract Club of Gems B School
   logo: /assets/images/clublogos/rcgems.jpg
   email:  
@@ -17,7 +15,6 @@ rcgems:
   description: "Rotaract Club of Gems B School"
   
 rcb:
-  name: RCB
   display_name: Rotaract Club of Bangalore
   logo: /assets/images/clublogos/rcbangalore.jpg
   email:  
@@ -26,7 +23,6 @@ rcb:
   description: "The Rotaract Club of Bangalore, established in 1968 has been a proud member of Rotary district 3190 for over 50 year, making it one of the oldest club in the country. Backed by parent club - The Rotary Club of Bangalore"
 
 rckgf:
-  name: RCKGF
   display_name: Rotaract Club of KGF
   logo: /assets/images/clublogos/rckgf.jpg
   email:  
@@ -35,7 +31,6 @@ rckgf:
   description: "Rotaract Club KGF is a community based club of RI District 3190 based in golden city of Kolar Gold Fields, under Rotary Club KGF."
 
 rcbit:
-  name: RCBIT
   display_name: Rotaract Bangalore Bit
   logo: /assets/images/clublogos/rcbit.jpg
   email:  
@@ -44,7 +39,6 @@ rcbit:
   description: "A part of a global effort to bring peace and happiness through service, by the students of Bangalore Institute of Technology, with the support of Rotaract."
 
 rcsurana:
-  name: RCSURANA
   display_name: Rotaract Club of Surana College
   logo: /assets/images/clublogos/rcsuranacollege.png
   email:  
@@ -53,7 +47,6 @@ rcsurana:
   description: "A youth organisation which focuses on serving the society as well as having fun and improving ourself in due course."
 
 rcsbmjc-kgf:
-  name: RCSBMJC-KGF
   display_name: Rotaract Club of SBMJC KGF
   logo: /assets/images/clublogos/rcsbmjc-kgf.png
   email:  
@@ -62,7 +55,6 @@ rcsbmjc-kgf:
   description: "RC SBMJC-KGF 🏢Institution based club.. RID 3190 #rcsmbmjckgf #motto #SERVICEABOVESELF"
 
 rcpes:
-  name: RCPES
   display_name: Rotaract Club of PES University
   logo: /assets/images/clublogos/rcpes.jpg
   email:  
@@ -71,7 +63,6 @@ rcpes:
   description: "A Rotaract Club chartered by the students of PES University for bringing a change in the society around us."
 
 rcbmsylk:
-  name: RCBMSYLK
   display_name: Rotaract Club of BMS Yelahanka
   logo: /assets/images/clublogos/rcbmsylk.png
   email:  
@@ -80,7 +71,6 @@ rcbmsylk:
   description: "Want to be a part of one of the world's largest organization in the world? Join Rotaract..! Let us all together make a world better place to live.! Cheers!"
 
 rccmrit:
-  name: RCCMRIT
   display_name: Rotaract Club of CMRIT
   logo: /assets/images/clublogos/rccmrit.png
   email:  
@@ -89,7 +79,6 @@ rccmrit:
   description: "Join the Joy of Rotaraction"
 
 rcnagarjuna:
-  name: RCNAGARJUNA
   display_name: Rotaract Club of Nagarjuna Degree College 
   logo: 
   email:  
@@ -98,7 +87,6 @@ rcnagarjuna:
   description: "Join the Joy of Rotaraction"
 
 rbw:
-  name: RBW
   display_name: Rotaract Bangalore West
   logo: /assets/images/clublogos/rbw.png
   email:  
@@ -107,7 +95,6 @@ rbw:
   description: "A 40 Year old Rotaract Club! We meet on Sundays at 11 AM at Malleshwaram. 13th Cross @Rotary Auditorium. Contact us at `president.rbw@gmail.com`"
 
 rcsouthparade:
-  name: RCSOUTHPARADE
   display_name: Rotaract Club of South Parade
   logo:
   email:  
@@ -116,7 +103,6 @@ rcsouthparade:
   description: "Join the Joy of Rotaraction"
 
 rotarykgf:
-  name: ROTARYKGF
   display_name: Rotary Club of KGF
   logo:
   email:  
@@ -125,7 +111,6 @@ rotarykgf:
   description: "Rotary in Action"
 
 rcgoldenrock:
-  name: RCGOLDENROCK
   display_name: Rotaract Club of Golden Rock
   logo:
   email:
@@ -134,7 +119,6 @@ rcgoldenrock:
   description: "Join the Joy of Rotaraction"
 
 rcchandapurrupashi:
-  name: RCCHANDAPURRUPASHI
   display_name: Rotaract Club of Chandapur Rupashi RID 3282
   logo:
   email:
@@ -143,7 +127,6 @@ rcchandapurrupashi:
   description: "Join the Joy of Rotaraction"
 
 rcopju:
-  name: RCOPJU
   display_name: RAC OPJU, Sonepat
   logo:
   email:
@@ -152,7 +135,6 @@ rcopju:
   description: "Join the Joy of Rotaraction"
 
 rbv:
-  name: RBV
   display_name: Rotaract Bangalore Vijayanagar
   logo: /assets/images/clublogos/rbv.png
   email:
@@ -161,7 +143,6 @@ rbv:
   description: "We RBV by accepting the responsibility, take effective steps towards our goal by raising funds for shelter box to feed those needing a helping hand & organizing special events."
 
 rckssem:
-  name: RCKSSEM
   display_name: Rotaract Club of KSSEM
   logo: /assets/images/clublogos/rckssem.jpg
   email:
@@ -170,7 +151,6 @@ rckssem:
   description: "This club was formed with the main intention of helping students gain network worldwide and to make India a better place."
 
 rcylk:
-  name: RCYLK
   display_name: Rotaract Club of Yelahanka
   logo: /assets/images/clublogos/rcylk.jpg
   email:
@@ -179,7 +159,6 @@ rcylk:
   description: "Rotaract Club Of Yelahanka is a platform for youngsters with different individuality who share a passion to serve the society. Its a non-profit voluntary organisation where people from different aspects of life meet and share their thoughts."
 
 rcmes:
-  name: RCMES
   display_name: Rotaract Club of MES
   logo: 
   email:
@@ -188,7 +167,6 @@ rcmes:
   description: "Rotary in Action."
 
 rcjunction:
-  name: RCJUNCTION
   display_name: Rotaract Bangalore Junction
   logo: /assets/images/clublogos/rcjunction.jpg
   email:
@@ -197,10 +175,17 @@ rcjunction:
   description: "The Rotaract Club of Bangalore Junction is a community based club sponsored by the Rotary Club of Bangalore Junction, Rotary International District 3190. A well established youth organisation committed to serving the society towards holistic development."
 
 rcpc:
-  name: RCPC
   display_name: Rotaract Club of Presidency College
   logo: /assets/images/clublogos/rcpc.jpg
   email:
   web:
   twitter: https://www.facebook.com/rac.presidency/
+  description: "Rotary in Action."
+
+rcvidyaranyapura:
+  display_name: Rotaract club of Vidyaranyapura
+  logo: /assets/images/clublogos/rcvidyaranyapura.jpg
+  email:
+  web:
+  twitter: https://www.facebook.com/Rotaractvidyaranyapura/
   description: "Rotary in Action."
