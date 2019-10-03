@@ -68,9 +68,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-archives
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
   kramdown
   rouge
+
+
