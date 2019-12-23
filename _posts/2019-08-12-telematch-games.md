@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Telematch Games
-date: '2018-08-12'
+date: '2019-08-12'
 author: rcjunction
 tags:
   - rcjunction
@@ -11,7 +11,7 @@ description: >-
   Cubbon Park.
 Categories:
   - Club-Service
-image: /assets/images/posts/riy18-19-telematchgames.jpg
+image: /assets/images/posts/riy19-20-telematchgames.jpg 
 featured: false
 hidden: false
 ---
