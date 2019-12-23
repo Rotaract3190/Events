@@ -6,7 +6,7 @@ author: rcb
 tags: [rcb]
 description: "otaract Club of Bangalore Members celebrated the International Friendship Day"
 categories: [ Club-Service ]
-image: /assets/images/posts/riy18-19/rcbintlfriendshipday.jpg
+image: /assets/images/posts/riy18-19-rcbintlfriendshipday.jpg
 featured: false
 hidden: false
 ---

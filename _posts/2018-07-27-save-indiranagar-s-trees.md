@@ -11,7 +11,7 @@ description: >-
   BDA (Bangalore Development Authority) complex.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/saveindiranagartrees.jpg
+image: /assets/images/posts/riy18-19-saveindiranagartrees.jpg
 featured: false
 hidden: false
 ---

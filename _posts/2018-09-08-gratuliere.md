@@ -6,7 +6,7 @@ author: rcylk
 tags: [rcylk,rcnagarjuna]
 description: "A zonal conference (Zone Ruby) focused on promoting farmers day and organic farming. More than 60 rotaractors from different parts of RID 3190 had participated."
 categories: [ International-Service,Professional-Service ]
-image: /assets/images/posts/riy18-19/Gratuliere.png
+image: /assets/images/posts/riy18-19-Gratuliere.png
 featured: false
 hidden: false
 ---

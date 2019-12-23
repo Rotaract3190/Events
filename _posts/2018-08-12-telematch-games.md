@@ -11,7 +11,7 @@ description: >-
   Cubbon Park.
 Categories:
   - Club-Service
-image: /assets/images/posts/riy18-19/telematchgames.jpg
+image: /assets/images/posts/riy18-19-telematchgames.jpg
 featured: false
 hidden: false
 ---

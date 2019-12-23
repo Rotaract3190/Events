@@ -10,7 +10,7 @@ description: >-
   trainer namely Sanchita. She is a corporate trainee and consultant.
 Categories:
   - Professional-Service
-image: /assets/images/posts/riy18-19/junctionice-breakingsession.jpg
+image: /assets/images/posts/riy18-19-junctionice-breakingsession.jpg
 featured: false
 hidden: false
 ---

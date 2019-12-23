@@ -6,7 +6,7 @@ author: rcgems
 tags: [rcgems]
 description: "Zone Emerald Samelana was all about learning aout the rich heritage of Karnataka and also facilitating of the learning of kannada language"
 categories: [ Professional-Service, Club-Service ]
-image: /assets/images/posts/riy18-19/zoneemeraldsamelana.jpg
+image: /assets/images/posts/riy18-19-zoneemeraldsamelana.jpg
 featured: false
 hidden: false
 ---

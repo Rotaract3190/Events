@@ -6,7 +6,7 @@ author: rbw
 tags: [rbw]
 description: "Dandiya Dhamaal v1.6 is a fund raising club service project by Rotaract Bangalore West. We aimed to raise funds for literacy and women and children welfare projects."
 categories: [ Club-Service ]
-image: /assets/images/posts/riy18-19/dandiya-dhamaal2018.jpg
+image: /assets/images/posts/riy18-19-dandiya-dhamaal2018.jpg
 featured: false
 hidden: false
 ---
@@ -21,4 +21,4 @@ After a festive session of nonstop dancing, the event concluded with the Maha Po
 
 RBW thanks Rotaract Club of Presidency College for supporting the event.
 
-<p><img src="/assets/images/posts/riy18-19/dandiya-dhamaal20182.jpg" width="100%" height="auto" alt="Dandiya Dhamaal V1.6"></p>
+<p><img src="/assets/images/posts/riy18-19-dandiya-dhamaal20182.jpg" width="100%" height="auto" alt="Dandiya Dhamaal V1.6"></p>

@@ -8,7 +8,7 @@ tags:
 description: Our visit to Elizabeth Charitable Trust was an amazing experience.
 Categories:
   - 'Club-Service, Community-Service, International-Service, Professional-Service'
-image: /assets/images/posts/riy18-19/visittoanorphanage.jpg
+image: /assets/images/posts/riy18-19-visittoanorphanage.jpg
 featured: false
 hidden: false
 ---

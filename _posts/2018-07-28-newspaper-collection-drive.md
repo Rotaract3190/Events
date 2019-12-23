@@ -10,7 +10,7 @@ description: >-
   collection Drive"" on the 28th and 29th of July 2018.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/rcjunctionnewspapercollectiondrive.jpg
+image: /assets/images/posts/riy18-19-rcjunctionnewspapercollectiondrive.jpg
 featured: false
 hidden: false
 ---

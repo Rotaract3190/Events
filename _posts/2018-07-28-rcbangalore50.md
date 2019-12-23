@@ -6,7 +6,7 @@ author: rcb
 tags: [rcb]
 description: "Rotaract Club of Bangalore's celebration of 50th Charter Day"
 categories: [ Club-Service ]
-image: /assets/images/posts/riy18-19/rcbangalore50.jpg
+image: /assets/images/posts/riy18-19-rcbangalore50.jpg
 featured: false
 hidden: false
 ---

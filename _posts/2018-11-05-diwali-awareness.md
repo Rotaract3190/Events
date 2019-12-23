@@ -12,7 +12,7 @@ description: >-
   program at schools in our locality to reduce the use of crackers this Diwali.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/rcvidyaranyapuradiwaliawareness.png
+image: /assets/images/posts/riy18-19-rcvidyaranyapuradiwaliawareness.png
 featured: false
 hidden: false
 ---

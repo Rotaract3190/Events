@@ -12,7 +12,7 @@ description: >-
   A TEDx experience to cherish at the beautiful UB City Amphitheater.
 Categories:
   - Professional-Service
-image: /assets/images/posts/riy18-19/tedxlavellroad.jpg
+image: /assets/images/posts/riy18-19-tedxlavellroad.jpg
 featured: false
 hidden: false
 ---
@@ -28,6 +28,6 @@ All the delegates were given a goody bag. Guests loved our gift bag filled with 
 
 It was an Unique event day experiences and activities
 
-![TedxLavellRoad](/assets/images/posts/riy18-19/tedxlavellroad2.jpg)
+![TedxLavellRoad](/assets/images/posts/riy18-19-tedxlavellroad2.jpg)
 
 We also had a panel discussion and Gala Dinner with speakers and guests from the city the day before the event at The Hub.

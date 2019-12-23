@@ -6,7 +6,7 @@ author: rcb
 tags: [rcb]
 description: "\"World Hepatitis Day – Social Media Awareness Campaign\" aimed to spread Awareness and combat viral Hepatitis around the world."
 categories: [ International-Service ]
-image: /assets/images/posts/riy18-19/hepatitisday.jpg
+image: /assets/images/posts/riy18-19-hepatitisday.jpg
 featured: false
 hidden: false
 ---

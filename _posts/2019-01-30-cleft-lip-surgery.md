@@ -6,7 +6,7 @@ author: rbv
 tags: [rbv]
 description: "Rotaract Bangalore Vijayanagar in association with PCMC (trust) initiated a unique community service event of correcting  the speech defects caused by Cleft Lip."
 categories: [ Community-Service ]
-image: /assets/images/posts/riy18-19/CleftLipSurgery.png
+image: /assets/images/posts/riy18-19-CleftLipSurgery.png
 featured: true
 hidden: true
 ---
@@ -17,4 +17,4 @@ This women's day was special for Chikka Hanumamma from a remote village of Kunig
 
 This condition can be cured and the normal functionalities can be restored through surgery. And, we as an organisation have come forward to help those who are affected by this condition through surgery for free of cost. People who are suffering from this syndrome can approach us and avail the service. No age limit for the surgery.
 
-<p><img src="/assets/images/posts/riy18-19/CleftLipSurgery2.png" width="100%" height="auto" alt="Cleft Lip Surgery"></p>
+<p><img src="/assets/images/posts/riy18-19-CleftLipSurgery2.png" width="100%" height="auto" alt="Cleft Lip Surgery"></p>

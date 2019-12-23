@@ -12,7 +12,7 @@ description: >-
   Ganeshas.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/eco-friendly-ganesha.jpg
+image: /assets/images/posts/riy18-19-eco-friendly-ganesha.jpg
 featured: true
 hidden: true
 ---
@@ -24,8 +24,8 @@ The club also conducted two hands-on workshop in NTI Ground Vidyaranyapura, to t
 
 The club also gave 100 clay ganeshas to the participants and had a stall selling clay ganeshas at subsidised rates to encourage people to go green. 
 
-![Awareness to use eco-friendly Ganesha](/assets/images/posts/riy18-19/eco-friendly-ganesha3.jpg)
+![Awareness to use eco-friendly Ganesha](/assets/images/posts/riy18-19-eco-friendly-ganesha3.jpg)
 
 The Project was sponsored by BRIGADE GROUPS.
 
-![Awareness to use eco-friendly Ganesha](/assets/images/posts/riy18-19/eco-friendly-ganesha2.jpg)
+![Awareness to use eco-friendly Ganesha](/assets/images/posts/riy18-19-eco-friendly-ganesha2.jpg)

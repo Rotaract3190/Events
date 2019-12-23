@@ -11,7 +11,7 @@ description: >-
   Maternity Centre.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/rcbnationalimmunization.jpg
+image: /assets/images/posts/riy18-19-rcbnationalimmunization.jpg
 featured: false
 hidden: false
 ---
@@ -25,6 +25,6 @@ On the streets of busy, bustling, chaotic, commercial Chikpet we were successful
 
 Back at the maternity centre we were able to vaccinate over 300 children and Iam sure numbers continued to soar the rest of the day. This warm sunny Sunday was well spent and extremely satisfying as we all have the same aim in life as many others, to continue and strive to make India a Polio Free Country.
 
-![NationalImmunization](/assets/images/posts/riy18-19/rcbnationalimmunization2.jpg)
+![NationalImmunization](/assets/images/posts/riy18-19-rcbnationalimmunization2.jpg)
 
 A big Thank you to our President Mr. Vivek Prabhu,  Ram Sheshu all the board and inner wheel members. Huge shout out to our Secretary Joseph Wilson, I admire your passion, drive and dedication, thank you Rotractor Amit, Deepan and a big round of applause to all the volunteers who took the time out to participate in this ground breaking project.

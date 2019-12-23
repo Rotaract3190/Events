@@ -10,7 +10,7 @@ description: >-
   donation.
 Categories:
   - 'Club-Service, Community-Service, International-Service, Professional-Service'
-image: /assets/images/posts/riy18-19/organdonationawarenessprogram-2.jpg
+image: /assets/images/posts/riy18-19-organdonationawarenessprogram-2.jpg
 featured: false
 hidden: false
 ---

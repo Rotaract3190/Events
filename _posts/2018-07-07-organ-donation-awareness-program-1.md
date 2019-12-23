@@ -11,7 +11,7 @@ description: >-
   Installation ceremony of the DRR and Executive Council of RI District 3190.
 Categories:
   - Community-Service
-image: /assets/images/posts/riy18-19/organdonationawarenessprogram-1.jpg
+image: /assets/images/posts/riy18-19-organdonationawarenessprogram-1.jpg
 featured: false
 hidden: false
 ---
