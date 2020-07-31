@@ -12,7 +12,7 @@ description: >-
   institutions and spread awareness about need and importance of water
   conservation among students.
 Categories:
-  - 'Club-Service, Community-Service, International-Service, Professional-Service'
+  - Community-Service
 image: /assets/images/posts/riy18-19-installationofaerators.jpg
 featured: false
 hidden: false
