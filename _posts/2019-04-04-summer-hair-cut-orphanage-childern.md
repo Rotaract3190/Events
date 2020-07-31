@@ -7,8 +7,8 @@ tags: [rcsbmjc-kgf]
 description: "Rotaract club of SBMJC-KGF & Asha Beauty Parlour, Has visited 2 orphanages Happy home On 4th April and Shantinbhavan Krishna Giri on 6th April."
 categories: [ Community-Service ]
 image: /assets/images/posts/riy18-19-summerhaircut.jpg
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 **Rotaract club of SBMJC-KGF & Asha Beauty Parlour**
