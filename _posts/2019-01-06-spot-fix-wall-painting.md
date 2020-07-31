@@ -4,7 +4,7 @@ title: Spot Fix - Wall Painting
 date: '2019-01-06'
 author: rcjunction
 tags:
-  - 'Option1, Option2'
+  - rcjunction
 description: >-
   We took a step to make our city beautiful as it was before. In association
   with an organisation called the ugly Indian we painted the walls of the ITC
