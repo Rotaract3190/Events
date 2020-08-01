@@ -9,7 +9,7 @@ description: >-
   Save Indiranagar's trees was a project that was initiated by Jhatkaa.org to
   Stop the felling of around 200 trees in Indiranagar for redevelopment of the
   BDA (Bangalore Development Authority) complex.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-saveindiranagartrees.jpg
 featured: false

@@ -10,7 +10,7 @@ description: >-
   CONTROL BOARD have spread awareness regarding harmful effects of POP, its role
   in environmental pollution and encouraged everyone to use Eco-Friendly
   Ganeshas.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-eco-friendly-ganesha.jpg
 featured: true

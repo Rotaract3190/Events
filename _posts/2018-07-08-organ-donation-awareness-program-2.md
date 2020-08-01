@@ -8,8 +8,7 @@ tags:
 description: >-
   Rotaract Bangalore Junction is working towards making people aware about organ
   donation.
-Categories:
-  - 'Club-Service, Community-Service, International-Service, Professional-Service'
+categories: [Community-Service]
 image: /assets/images/posts/riy18-19-organdonationawarenessprogram-2.jpg
 featured: false
 hidden: false

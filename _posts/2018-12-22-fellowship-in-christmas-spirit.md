@@ -8,7 +8,7 @@ tags:
 description: >-
   Rotaract Bangalore Junction had our fellowship meet with christmas theme of
   Red and Green.
-Categories:
+categories:
   - Club-Service
 image: /assets/images/posts/riy18-19-christmasspirit-rbj.jpg
 featured: false

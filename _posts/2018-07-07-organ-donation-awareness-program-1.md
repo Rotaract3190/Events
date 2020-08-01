@@ -9,7 +9,7 @@ description: >-
   Rotaract Bangalore Junction is working towards making people aware about organ
   donation. This awareness program was conducted at AARUSHI – The 42nd
   Installation ceremony of the DRR and Executive Council of RI District 3190.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-organdonationawarenessprogram-1.jpg
 featured: false

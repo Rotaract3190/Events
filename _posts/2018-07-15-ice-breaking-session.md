@@ -8,7 +8,7 @@ tags:
 description: >-
   We had a professional development session that was held by a free-lance
   trainer namely Sanchita. She is a corporate trainee and consultant.
-Categories:
+categories:
   - Professional-Service
 image: /assets/images/posts/riy18-19-junctionice-breakingsession.jpg
 featured: false

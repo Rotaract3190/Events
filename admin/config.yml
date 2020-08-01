@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
         default: ["Option1, Option2"]
       - {label: "Description", name: "description", widget: "markdown"}
       - label: "Avenues"
-        name: "Categories"
+        name: "categories"
         widget: "list" 
         allow_add: true
         default: ["Club-Service, Community-Service, International-Service, Professional-Service"]

@@ -9,8 +9,7 @@ description: >-
   Cultural programmes were organised on Rajyotsava by the parent club, Rotary
   Bangalore Vidyaranyapura along with Rotaract Vidyaranyapura to celebrate
   Kannada rajyotsava.
-Categories:
-  - 'Club-Service, Community-Service, International-Service, Professional-Service'
+categories: [Club-Service]
 image: /assets/images/posts/riy18-19-vidyaranyapurarajyotsavacelebrations.png
 featured: false
 hidden: false

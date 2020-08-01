@@ -8,7 +8,7 @@ tags:
 description: >-
   ROTARACT VIDYARANYAPURA along with CIVIL DEFENCE Div 13 supported Giftabled-
   an NGO for disabled kids in creating traffic awareness at Koramangala.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-rcvidyaranyapuratraffic.png
 featured: false

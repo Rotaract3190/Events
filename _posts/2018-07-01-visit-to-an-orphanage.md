@@ -6,8 +6,7 @@ author: rcjunction
 tags:
   - rcjunction
 description: Our visit to Elizabeth Charitable Trust was an amazing experience.
-Categories:
-  - 'Club-Service, Community-Service, International-Service, Professional-Service'
+categories: [Community-Service]
 image: /assets/images/posts/riy18-19-visittoanorphanage.jpg
 featured: false
 hidden: false

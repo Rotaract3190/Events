@@ -8,7 +8,7 @@ tags:
 description: >-
   Rotaract Bangalore Junction conducted it's first fundraiser ""The Newspaper
   collection Drive"" on the 28th and 29th of July 2018.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-rcjunctionnewspapercollectiondrive.jpg
 featured: false

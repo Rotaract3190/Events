@@ -10,7 +10,7 @@ description: >-
   with an organisation called the ugly Indian we painted the walls of the ITC
   Windsor Manor underpass. It was a great experience and we all enjoyed it as
   well.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-spotfix-wallpainting.jpg
 featured: false

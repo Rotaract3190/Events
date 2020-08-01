@@ -10,7 +10,7 @@ description: >-
   KARNATAKA POLLUTION CONTROL BOARD along with FIRE STATION OFFICERS from
   Yelahanka Fire Station supported by CIVIL DEFENCE (div 13) did an awareness
   program at schools in our locality to reduce the use of crackers this Diwali.
-Categories:
+categories:
   - Community-Service
 image: /assets/images/posts/riy18-19-rcvidyaranyapuradiwaliawareness.png
 featured: false
