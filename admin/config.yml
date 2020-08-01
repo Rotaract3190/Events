@@ -56,6 +56,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Koramangala", value: "rck" }
           - { label: "Rotary Bangalore Junction", value: "rotaryjunction" }
           - { label: "Welingkar Bangalore", value: "rcwelingkar" }
+          - { label: "Rotary Club of Vidyaranyapura", value: "rotaryvidyaranyapura" }
       - label: "Tags/Partner Clubs"
         name: "tags"
         widget: "select"
@@ -92,6 +93,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Koramangala", value: "rck" }
           - { label: "Rotary Bangalore Junction", value: "rotaryjunction" }
           - { label: "Welingkar Bangalore", value: "rcwelingkar" }
+          - { label: "Rotary Club of Vidyaranyapura", value: "rotaryvidyaranyapura" }
       - {label: "Description", name: "description", widget: "markdown"}
       - label: "Avenues"
         name: "categories"
