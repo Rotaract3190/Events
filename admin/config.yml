@@ -30,9 +30,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "markdown"}
       - label: "Avenues"
         name: "categories"
-        widget: "list" 
-        allow_add: true
-        default: ["Club-Service, Community-Service, International-Service, Professional-Service"]
+        widget: "select"
+        multiple: true
+        options: ["Club-Service", "Community-Service", "International-Service", "Professional-Service"]
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Featured?", name: "featured", widget: "boolean", default: false}
       - {label: "Hidden?", name: "hidden", widget: "boolean", default: false}
