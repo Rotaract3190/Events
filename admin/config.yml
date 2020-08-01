@@ -21,12 +21,77 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
-      - {label: "Author", name: "author", widget: "string"}
-      - label: "Tags/Partners"
+      - label: "Host Club"
+        name: "author"
+        widget: "select"
+        options:
+          - { label: "Bangalore Southwest", value: "rcbsw" }
+          - { label: "Gems B School", value: "rcgems" }
+          - { label: "Bangalore", value: "rcb" }
+          - { label: "K.G.F. Community", value: "rckgf" }
+          - { label: "Bangalore B.I.T", value: "rcbit" }
+          - { label: "Surana College", value: "rcsurana" }
+          - { label: "SBMJC KGF", value: "rcsbmjc-kgf" }
+          - { label: "PES University", value: "rcpes" }
+          - { label: "BMS Yelahanka", value: "rcbmsylk" }
+          - { label: "C M R I T", value: "rccmrit" }
+          - { label: "Nagarjuna Degree College", value: "rcnagarjuna" }
+          - { label: "Bangalore West", value: "rbw" }
+          - { label: "Bangalore South Parade", value: "rcsouthparade" }
+          - { label: "Rotary Club of KGF", value: "rotarykgf" }
+          - { label: "Bangalore Golden Rock", value: "rcgoldenrock" }
+          - { label: "Chandapur Rupashi RID 3282", value: "rcchandapurrupashi" }
+          - { label: "OPJU, Sonepat", value: "rcopju" }
+          - { label: "Bangalore Vijayanagar", value: "rbv" }
+          - { label: "KSSEM", value: "rckssem" }
+          - { label: "Yelahanka", value: "rcylk" }
+          - { label: "MES College", value: "rcmes" }
+          - { label: "Bangalore Junction", value: "rcjunction" }
+          - { label: "Presidency College", value: "rcpc" }
+          - { label: "Vidyaranyapura", value: "rcvidyaranyapura" }
+          - { label: "Bangalore Indiranagar", value: "rbi" }
+          - { label: "Delhi Akash", value: "rcdelhiakash" }
+          - { label: "Marathahalli", value: "rcm" }
+          - { label: "Alexandria and Cairo", value: "rcalexandriacairo" }
+          - { label: "Koramangala", value: "rck" }
+          - { label: "Rotary Bangalore Junction", value: "rotaryjunction" }
+          - { label: "Welingkar Bangalore", value: "rcwelingkar" }
+      - label: "Tags/Partner Clubs"
         name: "tags"
-        widget: "list" 
-        allow_add: true
-        default: ["Option1, Option2"]
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Bangalore Southwest", value: "rcbsw" }
+          - { label: "Gems B School", value: "rcgems" }
+          - { label: "Bangalore", value: "rcb" }
+          - { label: "K.G.F. Community", value: "rckgf" }
+          - { label: "Bangalore B.I.T", value: "rcbit" }
+          - { label: "Surana College", value: "rcsurana" }
+          - { label: "SBMJC KGF", value: "rcsbmjc-kgf" }
+          - { label: "PES University", value: "rcpes" }
+          - { label: "BMS Yelahanka", value: "rcbmsylk" }
+          - { label: "C M R I T", value: "rccmrit" }
+          - { label: "Nagarjuna Degree College", value: "rcnagarjuna" }
+          - { label: "Bangalore West", value: "rbw" }
+          - { label: "Bangalore South Parade", value: "rcsouthparade" }
+          - { label: "Rotary Club of KGF", value: "rotarykgf" }
+          - { label: "Bangalore Golden Rock", value: "rcgoldenrock" }
+          - { label: "Chandapur Rupashi RID 3282", value: "rcchandapurrupashi" }
+          - { label: "OPJU, Sonepat", value: "rcopju" }
+          - { label: "Bangalore Vijayanagar", value: "rbv" }
+          - { label: "KSSEM", value: "rckssem" }
+          - { label: "Yelahanka", value: "rcylk" }
+          - { label: "MES College", value: "rcmes" }
+          - { label: "Bangalore Junction", value: "rcjunction" }
+          - { label: "Presidency College", value: "rcpc" }
+          - { label: "Vidyaranyapura", value: "rcvidyaranyapura" }
+          - { label: "Bangalore Indiranagar", value: "rbi" }
+          - { label: "Delhi Akash", value: "rcdelhiakash" }
+          - { label: "Marathahalli", value: "rcm" }
+          - { label: "Alexandria and Cairo", value: "rcalexandriacairo" }
+          - { label: "Koramangala", value: "rck" }
+          - { label: "Rotary Bangalore Junction", value: "rotaryjunction" }
+          - { label: "Welingkar Bangalore", value: "rcwelingkar" }
       - {label: "Description", name: "description", widget: "markdown"}
       - label: "Avenues"
         name: "categories"
